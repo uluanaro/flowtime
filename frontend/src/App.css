@@ -1,0 +1,139 @@
+.app {
+  min-height: 100vh;
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: var(--color-text);
+}
+
+input {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-text);
+  padding: 10px 16px;
+  font-family: var(--font);
+  font-size: 14px;
+  width: 300px;
+  outline: none;
+}
+
+input:focus {
+  border-color: var(--color-primary);
+}
+
+button {
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  padding: 10px 20px;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.task-item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-item button {
+  background: var(--color-danger);
+  padding: 6px 14px;
+  font-size: 12px;
+}
+
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background: var(--color-surface);
+  border-right: 1px solid var(--color-border);
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 32px;
+  padding: 0 12px;
+}
+
+.nav-item {
+  background: none;
+  color: var(--color-muted);
+  border: none;
+  border-radius: var(--radius);
+  padding: 10px 12px;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  background: var(--color-border);
+  color: var(--color-text);
+  opacity: 1;
+}
+
+.nav-item.active {
+  background: var(--color-primary);
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+.estimate-box {
+  background: var(--color-surface);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-top: 24px;
+}
+
+.estimate-box h3 {
+  color: var(--color-primary);
+  margin-bottom: 8px;
+}
+
+.estimate-box ul {
+  margin-top: 12px;
+  padding-left: 20px;
+}
+
+.estimate-box li {
+  color: var(--color-muted);
+  margin-top: 6px;
+  font-size: 14px;
+}

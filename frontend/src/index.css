@@ -1,0 +1,23 @@
+:root {
+  --color-primary: #6678f1;     /* основной акцент */
+  --color-bg: #0f0f13;          /* фон страницы */
+  --color-surface: #1a1a24;     /* фон карточек */
+  --color-border: #2a2a3a;      /* границы */
+  --color-text: #e2e8f0;        /* основной текст */
+  --color-muted: #64748b;       /* второстепенный текст */
+  --color-danger: #ef4444;      /* кнопка удалить */
+  --radius: 12px;
+  --font: 'Montserrat', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font);
+}
